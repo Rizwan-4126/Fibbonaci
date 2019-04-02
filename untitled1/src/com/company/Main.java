@@ -15,8 +15,9 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             int x = cari(i);
             System.out.print(x + " ");
+            jumlah = jumlah+x;
         }
-
+        System.out.println("\n Jumlah Deret : "+jumlah);
     }
 
     public static int cari(int n) {
